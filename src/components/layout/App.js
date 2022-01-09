@@ -22,7 +22,7 @@ function App() {
     // eslint-disable-next-line
   }, [token]);
 
-  //this goes through routes to signup then calls backend API which makes JWT.
+  //this goes through Routes to Signup then calls backend API which makes JWT.
   const registerUser = (newUserData) => {
     const register = async (newUserData) => {
       try {
