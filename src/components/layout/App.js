@@ -7,6 +7,7 @@ import JoblyApi from "../../helpers/api";
 import UserContext from "../../helpers/userContext";
 import useLocalStorageState from "../../helpers/hooks";
 
+//pass down functions through Routes.js to individual components, make API calls here to api.js when called. 
 function App() {
   const [currentUser, setCurrentUser] = useState({});
   const [username, setUsername] = useLocalStorageState("username", "");
@@ -22,7 +23,6 @@ function App() {
     // eslint-disable-next-line
   }, [token]);
 
-  //this goes through Routes to Signup then calls backend API which makes JWT.
   const registerUser = (newUserData) => {
     const register = async (newUserData) => {
       try {
@@ -80,6 +80,7 @@ function App() {
     setCurrentUser({});
   };
 
+  //pass to JobCard.js for form submit. 
   const saveJob = (id) => {
     const save = async (id) => {
       console.log("saving...");

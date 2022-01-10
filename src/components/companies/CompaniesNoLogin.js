@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 
+//handle company/job search without login. 
 function CompaniesNoLogin() {
   return (
     <div>

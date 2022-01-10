@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 
+//require login for application, hanlde not logged in. 
 function ApplicationNoLogin() {
   return (
     <div>

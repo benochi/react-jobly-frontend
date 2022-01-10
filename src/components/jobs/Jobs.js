@@ -4,6 +4,7 @@ import JobCard from "./JobCard";
 import SearchBox from "../forms/SearchBox";
 import "./Jobs.css";
 
+//called by App.js to api.js call JobCard.js and pass function for searching jobs to SearchBox form. 
 function Jobs({ saveJob }) {
   const [jobs, setJobs] = useState([]);
 

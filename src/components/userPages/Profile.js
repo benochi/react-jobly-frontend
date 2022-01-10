@@ -2,6 +2,7 @@ import { useState, useContext } from "react";
 import UserContext from "../../helpers/userContext";
 import "./Profile.css";
 
+//build user profile and get function for updateUser from App.js -> api.js
 function Profile({ updateUser }) {
   const currentUser = useContext(UserContext);
   const username = currentUser.username;
@@ -12,6 +13,7 @@ function Profile({ updateUser }) {
   const [error, setError] = useState(false);
   const [success, setSuccess] = useState(false);
 
+  //pass in css style for error or success on update. 
   const handleSubmit = (evt) => {
     evt.preventDefault();
     setError(false);

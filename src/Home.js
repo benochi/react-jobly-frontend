@@ -5,12 +5,12 @@ import "./Home.css";
 
 function Home() {
   const currentUser = useContext(UserContext);
-  console.log(currentUser);
+  
   if ("username" in currentUser) {
     return (
       <div className="Home">
         <h1>Welcome, {currentUser.firstName}!</h1>
-        <p>All the jobs are here.</p>
+        <p>All the jobs in one, convienent place.</p>
         <div>
           <Link to="/jobs">
             <button>Jobs</button>
@@ -25,7 +25,7 @@ function Home() {
     return (
       <div className="Home">
         <h1>Jobly</h1>
-        <p>All the jobs are here.</p>
+        <p>All the jobs in one, convienent place.</p>
         <div>
           <Link to="/login">
             <button>Log in</button>

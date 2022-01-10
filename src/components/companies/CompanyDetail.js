@@ -19,6 +19,7 @@ function CompanyDetail({ saveJob }) {
     //eslint-disable-next-line
   }, []);
 
+  //return info for jobs for specific company. 
   if (company.jobs) {
     return (
       <div className="CompanyDetail">

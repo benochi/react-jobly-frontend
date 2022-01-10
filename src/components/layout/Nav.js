@@ -10,7 +10,7 @@ function Nav() {
       <NavLink className="NavHome" exact to="/">
         Jobly
       </NavLink>
-
+      
       {!("username" in user) && (
         <span>
           <NavLink exact to="/signup">

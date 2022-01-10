@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./SearchBox.css";
 
+//handle searchbox with obj passed from Companies.js/Jobs.js
 function SearchBox({ doSearch }) {
   const [searchTerm, setSearchTerm] = useState("");
   const handleChange = (evt) => {

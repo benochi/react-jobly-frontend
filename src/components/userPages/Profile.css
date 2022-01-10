@@ -8,8 +8,8 @@
 .Profile button {
     font-size: x-large;
     border-radius: 5px;
-    background-color: rgb(132, 152, 240);
-    color: white;
+    background-color: rgb(75, 202, 63);
+    color: black;
     margin: 5px;
     padding: 5px 10px;
 }
@@ -21,5 +21,5 @@
 
 .Profile-success {
     font-size: large;
-    color: green;
+    color: rgb(0, 169, 221);
 }

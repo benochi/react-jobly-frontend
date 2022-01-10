@@ -110,13 +110,13 @@ class JoblyApi {
     return res.applied;
   }
 
-  // Get user's job applications
+  // Get user's job applications -> Applications.js
   static async getApplications(username) {
     const res = await this.request(`users/${username}/jobs`);
     return res.applications;
   }
 
-  // Update a job application
+  // Update a job application called by ApplicationCard -> Application.js
   static async updateApp(username, jobid, status) {
     console.log("in update app");
     const res = await this.request(
@@ -129,7 +129,7 @@ class JoblyApi {
     return res.application;
   }
 
-  // Delete job application 
+  // Delete job application called by ApplicationCard -> Application.js
   static async deleteApp(username, jobid) {
     console.log("in delete app");
     const res = await this.request(

@@ -13,6 +13,7 @@ import Applications from "../applications/Applications";
 import ApplicationNoLogin from "../applications/ApplicationNoLogin";
 import CompaniesNoLogin from "../companies/CompaniesNoLogin";
 
+//pass down functions from App.js to correct component for use. 
 function Routes({
   registerUser,
   loginUser,

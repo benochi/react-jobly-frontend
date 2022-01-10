@@ -2,6 +2,7 @@ import { useState, useContext } from "react";
 import "./JobCard.css";
 import UserContext from "../../helpers/userContext";
 
+//get usercontext and handle jobcards, button for interest in jobs. 
 function JobCard({ job, saveJob }) {
   const currentUser = useContext(UserContext);
   const [interested, setInterested] = useState(currentUser.jobs.includes(job.id));

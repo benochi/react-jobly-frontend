@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   margin: auto;
-  background-color: lavender;
+  background-color: rgb(214, 214, 214);
   min-height: 100vh;
 }
 
@@ -13,8 +13,8 @@
 }
 
 button {
-  background-color: rgb(132, 152, 240);
-  color: white;
+  background-color: rgb(75, 202, 63);
+  color: black;
   padding: 3px 8px;
   border-radius: 5px;
   margin: auto;

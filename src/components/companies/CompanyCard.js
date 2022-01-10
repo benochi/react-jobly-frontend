@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import "./CompanyCard.css";
 
+//CompanyCard Link, name, description from p[assed in company obj. 
 function CompanyCard({ company }) {
   return (
     <div className="CompanyCard">

@@ -4,6 +4,7 @@ import JoblyApi from "../../helpers/api";
 
 import ApplicationCard from "./ApplicationCard";
 
+//handle update or delete api.js-> App.js -> Routes.js -> here. 
 function Applications({ updateApp, deleteApp }) {
   const currentUser = useContext(UserContext);
   const [interested, setInterested] = useState([]);
