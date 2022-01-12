@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+  margin: auto;
+  background-color: rgb(218, 223, 215);
+  min-height: 100vh;
+}
+
+.Content {
+  width: 80%;
+  max-width: 800px;
+  margin: auto;
+  padding-top: 15px;
+}
+
+button {
+  background-color: rgb(75, 202, 63);
+  color: black;
+  padding: 3px 8px;
+  border-radius: 5px;
+  margin: auto;
+}
